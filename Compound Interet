@@ -1,0 +1,8 @@
+# BigJoe4rael
+print('Welcome to my compound interest calculator')
+p=float(input('Please enter the initial amount deposited: '))
+r=float(input('Please enter the rate in decimals: '))
+n=int(input('Please enter the number of times it it calculated in a year: '))
+t=int(input('Please enter the number of years: '))
+CI=p*((1+(r/n))**(n*t))
+print('The amount is %.2f'%CI)
